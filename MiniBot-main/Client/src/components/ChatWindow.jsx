@@ -16,7 +16,7 @@ const ChatWindow = ({ currentChat }) => {
   const [model, setModel] = useState(null);
   const [showLoginWarning, setShowLoginWarning] = useState(false); // New state for the warning
 
-  const apiKey = 'AIzaSyB0ZzLzpVeTjEQ-Gw5fxsdp6wh396eIuRM';
+  const apiKey = '';
 
   // Configuration for the Gemini model
   const generationConfig = {
